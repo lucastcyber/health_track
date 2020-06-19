@@ -1,0 +1,77 @@
+@import url('components.css');
+@import url('helpers.css');
+@import url('pages.css');
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g64199');
+  src:  url('fonts/icomoon.eot?g64199#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g64199') format('truetype'),
+    url('fonts/icomoon.woff?g64199') format('woff'),
+    url('fonts/icomoon.svg?g64199#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-home:before {
+  content: "\e900";
+  color: #666;
+}
+.icon-icon-menu:before {
+  content: "\e901";
+  color: #666;
+}
+.icon-icon-score:before {
+  content: "\e902";
+  color: #666;
+}
+.icon-icon-user:before {
+  content: "\e903";
+  color: #666;
+}
+
+.container {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  min-height: 0px;
+}
+
+main {
+  height: 100vh;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}

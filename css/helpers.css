@@ -1,0 +1,74 @@
+:root {
+  /* Colors */
+  --main-grey: #878787;
+  --main-purple: #424CC0;
+  --light-purple: #7D86EB;
+  --main-orange: #E68769;
+  --light-grey: #ECECEC;
+  --main-green: #79BF84;
+}
+
+.c-main-purple {
+  color: var(--main-purple);
+}
+.c-main-grey {
+  color: var(--main-grey);
+}
+
+.c-main-green {
+  color: var(--main-green);
+}
+
+.c-main-orange {
+  color: var(--main-orange);
+}
+
+.c-light-purple {
+  color: var(--light-purple);
+}
+
+.b-main-purple {
+  background-color: var(--main-purple);
+}
+
+.b-light-purple {
+  background-color: var(--light-purple);
+}
+
+.b-main-orange {
+  background-color: var(--main-orange);
+}
+.b-main-grey {
+  background-color: var(--main-grey);
+}
+.b-main-green {
+  background-color: var(--main-green);
+}
+
+.fz-1 {
+  font-size: 24px;
+}
+
+.fz-2 {
+  font-size: 22px;
+}
+
+.fz-3 {
+  font-size: 18px;
+}
+
+.fz-4 {
+  font-size: 16px;
+}
+
+.fz-5 {
+  font-size: 14px;
+}
+
+.fz-6 {
+  font-size: 12px;
+}
+
+.fz-7 {
+  font-size: 10px;
+}

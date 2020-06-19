@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Healthtrack</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="../../icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <main role="main" class="d-flex flex-column">
+    <div class="container flex-shrink-1">
+      <div class="wrapper col-sm-11 col-md-5 d-flex flex-column">
+        <h1 class="mt-5 mb-3 c-main-purple d">ATIVIDADE DIÁRIA</h1>
+
+        <div class="summary-activity justify-content-between align-items-center d-flex mt-4">
+          <div class="summary-activity__chart">
+            <div class="svg-item">
+              <svg width="160" height="100%" viewBox="0 0 40 40" class="donut">
+                <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
+                <circle class="donut-segment donut-segment-2" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="69 31" stroke-dashoffset="25"></circle>
+                <g class="donut-text donut-text-1">
+            
+                  <text y="50%" transform="translate(0, 2)">
+                    <tspan x="50%" text-anchor="middle" class="donut-percent">69%</tspan>   
+                  </text>
+                  <text y="60%" transform="translate(0, 2)">
+                    <tspan x="50%" text-anchor="middle" class="donut-data fz-4">Calorias</tspan>   
+                  </text>
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div class="summary-activity__comsuption">
+            <div class="card-box mb-3 d-flex align-items-center justify-content-between">
+              <div class="mr-2 d-flex flex-column align-items-center justify-content-center">
+                <h4 class="mb-1 c-light-purple">1.7L</h4>
+                <h6 class="c-main-grey">ÁGUA</h6>
+              </div>
+              <img src="../../images/icon-water.png" height="32" alt="">
+            </div>
+
+            <div class="card-box d-flex align-items-center justify-content-between">
+              <div class="mr-2 d-flex flex-column align-items-center justify-content-center">
+                <h4 class="mb-1 c-light-purple">820</h4>
+                <h6 class="c-main-grey">CALORIAS</h6>
+              </div>
+              <img src="../../images/icon-fire.png" height="32" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="consumption-calorie mt-5">
+          <div class="d-flex mb-3 align-items-center justify-content-between">
+            <h4 class="c-main-purple fz-3">CONSUMO CALÓRICO</h4>
+            <h5 class="c-main-grey fz-4">820 / 2.000</h5>
+          </div>
+
+          <div class="card-box p-2">
+            <img src="../../images/Chart.svg" alt="">
+          </div>
+        </div>
+
+        <div class="health-bar my-4">
+          <div class="card-box d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-column">
+              <h4 class="c-main-green mb-0" style="font-size: 32px;">750+</h4>
+              <h6 class="c-main-grey fz-2">HEALTH<strong class="c-main-green">SCORE</strong></h6>
+            </div>
+
+            <img src="../../images/icon-score.png" height="64" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="tab-bar d-flex mt-3 justify-content-between align-items-center">
+      <a href="../home/index.html">
+        <i class="icon-icon-home active"></i>
+      </a>
+      <a href="../cardapio/index.html">
+        <i class="icon-icon-menu"></i>
+      </a>
+      <a href="../add/index.html" class="add-button"></a>
+      <a href="../health-score/index.html">
+        <i class="icon-icon-score"></i>
+      </a>
+      <a href="#">
+        <i class="icon-icon-user"></i>
+      </a>
+    </footer>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../../js/plugins.js"></script>
+  <script src="../../js/main.js"></script>
+
+  <script>
+    document.write(
+      '<script src="http://' +
+      (location.host || '${1:localhost}').split(':')[0] +
+      ':${2:35729}/livereload.js?snipver=1"></' +
+      'script>'
+    );
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+/**
+* FORMULARIOS
+*/
+
+::placeholder { 
+  color: var(--main-grey);
+}
+
+:-ms-input-placeholder { 
+  color: var(--main-grey);
+}
+
+::-ms-input-placeholder { 
+  color: var(--main-grey);
+}
+
+input {
+  width: 100%;
+  color: var(--main-grey);
+  font-weight: 700;
+  font-size: 18px;
+  border: 1px solid var(--main-grey);
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.base-button {
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 40px;
+  background: var(--main-purple);
+  border-radius: 5px;
+}
+
+/* COMPONBENTS */
+
+.tab-bar {
+  width: 100%;
+  background: #fff;
+  font-size: 32px;
+  border-top: 1px solid var(--main-grey);
+  padding: 20px;
+}
+
+.tab-bar .active::before {
+  color: var(--main-purple) !important;
+}
+
+.tab-bar .add-button {
+  display: block;
+  width: 47px;
+  height: 47px;
+  background: url("../images/icon-add.png") no-repeat;
+}
+
+.card-box {
+  width: 100%;
+  border-radius: 15px;
+  background: var(--light-grey);
+  padding: 20px;
+}
+
+.list-info {
+  list-style: none;
+  padding: 0;
+}
+
+.list-info li:last-child .list-info__item {
+  border: none;
+}
+
+.list-info__item {
+  padding: 17px 10px;
+  border-bottom: 1px solid var(--main-grey);
+}
+
+.list-info__item__title {
+
+}
+
+.big-add-button {
+  width: 65px;
+  height: 75px;
+  display: inline-block;
+  background: url('../images/button-add-big.png') center center no-repeat;
+}
+
+.trash-button {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background: url('../images/button-trash.png') center center no-repeat;
+}
+
+.button-add-small {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url('../images/icon-add-small.png') center center no-repeat;
+  outline: none !important;
+  border: none !important;
+}

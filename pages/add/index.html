@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Healthtrack</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="../../icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<!-- Modal -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pão de forma</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="my-3">
+          <input type="number" placeholder="Quantidade">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"><strong>CANCELAR</strong></button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal"><strong>ADICIONAR</strong></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <main role="main" class="d-flex flex-column">
+    <div class="container flex-shrink-1">
+      <div class="wrapper col-sm-11 col-md-5 d-flex flex-column">
+        <h1 class="mt-5 mb-3 c-main-purple d">BUSCAR ALIMENTO</h1>
+
+        <div class="search-box">
+          <form action="">
+            <input type="text" placeholder="Pesquisar" value="pão">
+          </form>
+        </div>
+
+        <h6 class="fz-4 c-main-purple mt-5">RESULTADO (850)</h6>
+
+        <ul class="list-info mt-2">
+          <li>
+            <div class="d-flex align-items-center list-info__item">
+              <a href="#" class="w-100">
+                <h4 class="fz-2 c-main-grey mb-3">
+                  Pão de forma
+                </h4>
+
+                <div class="d-flex justify-content-between align-items-center list-info__item__description">
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-fire.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">280</h6>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-score.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">120</h6>
+                  </div>
+                </div>
+              </a>
+              <button type="button" class="button-add-small ml-5" data-toggle="modal" data-target="#addModal"></button>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center list-info__item">
+              <a href="#" class="w-100">
+                <h4 class="fz-2 c-main-grey mb-3">
+                  Pão sovado
+                </h4>
+
+                <div class="d-flex justify-content-between align-items-center list-info__item__description">
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-fire.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">280</h6>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-score.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">120</h6>
+                  </div>
+                </div>
+              </a>
+              <button type="button" class="button-add-small ml-5" data-toggle="modal" data-target="#addModal"></button>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center list-info__item">
+              <a href="#" class="w-100">
+                <h4 class="fz-2 c-main-grey mb-3">
+                  Pão de leite
+                </h4>
+
+                <div class="d-flex justify-content-between align-items-center list-info__item__description">
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-fire.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">280</h6>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-score.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">120</h6>
+                  </div>
+                </div>
+              </a>
+              <button type="button" class="button-add-small ml-5" data-toggle="modal" data-target="#addModal"></button>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center list-info__item">
+              <a href="#" class="w-100">
+                <h4 class="fz-2 c-main-grey mb-3">
+                  Pão de milho
+                </h4>
+
+                <div class="d-flex justify-content-between align-items-center list-info__item__description">
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-fire.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">280</h6>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-score.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">120</h6>
+                  </div>
+                </div>
+              </a>
+              <button type="button" class="button-add-small ml-5" data-toggle="modal" data-target="#addModal"></button>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center list-info__item">
+              <a href="#" class="w-100">
+                <h4 class="fz-2 c-main-grey mb-3">
+                  Pão de alho
+                </h4>
+
+                <div class="d-flex justify-content-between align-items-center list-info__item__description">
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-fire.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">280</h6>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-items-start">
+                    <img src="../../images/icon-score.png" height="22" alt="">
+                    <h6 class="fz-4 mb-0 c-main-grey ml-2">120</h6>
+                  </div>
+                </div>
+              </a>
+              <button type="button" class="button-add-small ml-5" data-toggle="modal" data-target="#addModal"></button>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <footer class="tab-bar d-flex mt-3 justify-content-between align-items-center">
+      <a href="../home/index.html">
+        <i class="icon-icon-home"></i>
+      </a>
+      <a href="../cardapio/index.html">
+        <i class="icon-icon-menu"></i>
+      </a>
+      <a href="../add/index.html" class="add-button"></a>
+      <a href="../health-score/index.html">
+        <i class="icon-icon-score"></i>
+      </a>
+      <a href="#">
+        <i class="icon-icon-user"></i>
+      </a>
+    </footer>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="../../js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../../js/plugins.js"></script>
+  <script src="../../js/main.js"></script>
+
+  <script>
+    document.write(
+      '<script src="http://' +
+      (location.host || '${1:localhost}').split(':')[0] +
+      ':${2:35729}/livereload.js?snipver=1"></' +
+      'script>'
+    );
+  </script>
+</body>
+
+</html>
